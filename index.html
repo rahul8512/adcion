@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="ADCOIN (ADCN) — a fixed-supply BEP-20 token on BNB Smart Chain.">
+  <title>ADCOIN (ADCN) — Official Website</title>
+  <link rel="icon" type="image/png" href="assets/adcoin-logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="ADCOIN home">
+      <img src="assets/adcoin-logo.png" alt="ADCOIN logo">
+      <span>AD<span class="red">COIN</span><small>ADCN TOKEN</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#about">About</a><a href="#tokenomics">Tokenomics</a><a href="#contract">Contract</a>
+      <a href="#how-to-buy">How to Buy</a><a href="#roadmap">Roadmap</a><a href="#contact">Contact</a>
+      <button class="btn btn-small" id="connectBtn">Connect Wallet</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> BUILT ON BNB SMART CHAIN</div>
+        <h1>THE NEXT CHAPTER<br>OF <span class="red">DIGITAL</span><br>ASSETS.</h1>
+        <p class="lead">Meet <strong>ADCOIN (ADCN)</strong> — a BEP-20 digital token designed around a predefined supply, transparent token details, and the established BNB Smart Chain ecosystem.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#how-to-buy">How to Buy <span>↗</span></a>
+          <a class="btn btn-outline" href="https://pancakeswap.finance/swap?chain=bsc&outputCurrency=0x32EE6dB598E7F0Fa7c47D4601f8AB695d17Fe560" target="_blank" rel="noopener noreferrer">Buy on PancakeSwap ↗</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>50M</strong><span>FIXED TOTAL SUPPLY</span></div>
+          <div><strong>18</strong><span>DECIMALS</span></div>
+          <div><strong>BEP-20</strong><span>TOKEN STANDARD</span></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <img src="assets/adcoin-logo.png" alt="ADCOIN red and black emblem" class="hero-logo">
+        <div class="art-caption">ADCOIN <span>/</span> ADCN</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Token information">
+      <span>ADCOIN</span><b>✦</b><span>ADCN</span><b>✦</b><span>BNB SMART CHAIN</span><b>✦</b><span>FIXED SUPPLY</span><b>✦</b><span>ADCOIN</span>
+    </section>
+
+    <section class="section split" id="about">
+      <div><p class="eyebrow">01 / ABOUT ADCOIN</p><h2>A TOKEN BUILT<br>ON <span class="red">CLARITY.</span></h2></div>
+      <div class="section-copy">
+        <p>ADCOIN (ADCN) is a digital cryptocurrency token built on the BNB Smart Chain (BSC) using the BEP-20 token standard.</p>
+        <p>ADCOIN aims to establish a modern digital token ecosystem focused on transparency, accessibility, and blockchain technology. By utilizing the BNB Smart Chain, ADCN benefits from an established blockchain infrastructure designed for efficient and cost-effective transactions.</p>
+        <p>With a fixed total supply of 50 million ADCN tokens and minting disabled, ADCOIN is designed around a predefined token supply.</p>
+      </div>
+    </section>
+
+    <section class="section token-section" id="tokenomics">
+      <div class="section-heading"><div><p class="eyebrow">02 / TOKENOMICS</p><h2>THE NUMBERS<br><span class="red">BEHIND ADCN.</span></h2></div><p class="muted">A straightforward token profile.<br>Review the contract on BscScan before interacting.</p></div>
+      <div class="token-grid">
+        <article class="token-card featured"><span class="card-label">TOTAL SUPPLY</span><strong>50,000,000</strong><span>ADCN</span><div class="supply-line"><i></i></div><small>Fixed supply · Minting disabled</small></article>
+        <article class="token-card"><span class="card-label">NETWORK</span><strong>BNB</strong><span>Smart Chain</span></article>
+        <article class="token-card"><span class="card-label">STANDARD</span><strong>BEP-20</strong><span>Token standard</span></article>
+        <article class="token-card"><span class="card-label">DECIMALS</span><strong>18</strong><span>Token precision</span></article>
+        <article class="token-card"><span class="card-label">TOKEN TYPE</span><strong>Fixed</strong><span>Supply model</span></article>
+        <article class="token-card"><span class="card-label">MINTING</span><strong class="red">Disabled</strong><span>No further minting</span></article>
+      </div>
+    </section>
+
+    <section class="section contract-section" id="contract">
+      <div class="contract-panel">
+        <div><p class="eyebrow">03 / OFFICIAL CONTRACT</p><h2>VERIFY BEFORE<br><span class="red">YOU TRADE.</span></h2>
+          <p class="muted">Always confirm the token contract address matches this page before swapping or sending tokens.</p>
+        </div>
+        <div class="address-box">
+          <span class="card-label">ADCN CONTRACT ADDRESS · BNB SMART CHAIN</span>
+          <code id="contractAddress">0x32EE6dB598E7F0Fa7c47D4601f8AB695d17Fe560</code>
+          <div class="address-actions">
+            <button class="btn" id="copyBtn">Copy Address</button>
+            <a class="btn btn-outline" href="https://bscscan.com/token/0x32EE6dB598E7F0Fa7c47D4601f8AB695d17Fe560" target="_blank" rel="noopener noreferrer">View on BscScan ↗</a>
+          </div>
+          <p class="status" id="copyStatus" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how-to-buy">
+      <p class="eyebrow">04 / GET STARTED</p><h2>HOW TO <span class="red">BUY ADCN.</span></h2>
+      <div class="steps">
+        <article><b>01</b><h3>Set up a wallet</h3><p>Install MetaMask from its official website or use a compatible wallet. Secure your recovery phrase offline. Never share it.</p><a href="https://metamask.io/download/" target="_blank" rel="noopener noreferrer">Get MetaMask ↗</a></article>
+        <article><b>02</b><h3>Choose BNB Chain</h3><p>Connect your wallet and switch to BNB Smart Chain Mainnet. The network uses Chain ID 56 and BNB for gas fees.</p><button class="text-button" id="addNetworkBtn">Add / Switch BNB Chain ↗</button></article>
+        <article><b>03</b><h3>Get BNB</h3><p>Acquire BNB from a reputable exchange or wallet provider and transfer it to your BNB Smart Chain wallet for swap fees.</p></article>
+        <article><b>04</b><h3>Swap for ADCN</h3><p>Open PancakeSwap, connect your wallet, select BNB as the input and import ADCN using the verified contract address.</p><a href="https://pancakeswap.finance/swap?chain=bsc&outputCurrency=0x32EE6dB598E7F0Fa7c47D4601f8AB695d17Fe560" target="_blank" rel="noopener noreferrer">Open PancakeSwap ↗</a></article>
+      </div>
+      <div class="wallet-row"><div><strong>Connect your MetaMask wallet</strong><p id="walletStatus" class="muted">Not connected. Your wallet will ask for permission before connecting.</p></div><button class="btn" id="connectBtnBottom">Connect MetaMask</button><button class="btn btn-outline" id="addTokenBtn">Add ADCN to wallet</button></div>
+      <p class="disclaimer">Crypto assets are volatile and may involve substantial risk. This website is informational and does not provide investment advice. Check the contract, liquidity, price impact, and transaction details yourself before confirming a swap.</p>
+    </section>
+
+    <section class="section roadmap-section" id="roadmap">
+      <p class="eyebrow">05 / THE JOURNEY</p><h2>ADCOIN <span class="red">ROADMAP.</span></h2>
+      <div class="timeline">
+        <article class="timeline-item done"><span class="timeline-dot"></span><div><small>09 NOV 2026 · 06:37:03 UTC</small><h3>Project creation</h3><p>ADCOIN project created.</p><span class="tag">COMPLETED</span></div></article>
+        <article class="timeline-item done"><span class="timeline-dot"></span><div><small>09 NOV 2026 · 08:17:33 UTC</small><h3>Uniswap listing</h3><p>Listing milestone reported as completed by the project team. Please verify the network, token pair, and current trading availability independently.</p><span class="tag">REPORTED COMPLETED</span></div></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><div><small>NEXT MILESTONE</small><h3>Exchange listing</h3><p>Explore potential exchange listings and publish confirmed announcements through official ADCOIN channels.</p><span class="tag tag-next">UPCOMING</span></div></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><div><small>ONGOING</small><h3>Community & ecosystem</h3><p>Continue improving project communications, transparency, and community resources.</p><span class="tag tag-next">PLANNED</span></div></article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div><p class="eyebrow">06 / CONTACT</p><h2>LET'S STAY<br><span class="red">CONNECTED.</span></h2><p class="muted">For official project questions and support, contact the ADCOIN team by email.</p></div>
+      <div class="contact-card"><span class="card-label">OFFICIAL SUPPORT</span><a href="mailto:support.adcn@gmail.com">support.adcn@gmail.com ↗</a><p>Use official channels and verify announcements before taking action.</p></div>
+    </section>
+  </main>
+
+  <footer><a class="footer-brand" href="#home">AD<span class="red">COIN</span></a><span>© <span id="year"></span> ADCOIN. All rights reserved.</span><a href="#home">Back to top ↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
